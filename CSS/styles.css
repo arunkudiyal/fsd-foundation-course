@@ -1,0 +1,93 @@
+/* selector {
+    css for the selected element
+    cssProperty: propertyValue;
+    color: red;
+} */
+
+/* SELECTORS */
+
+/* 1. Element Selector */
+h1 {
+    color: purple;
+}
+
+/* 2. ID Selector */
+#para-one {
+    color: grey;
+}
+
+/* 3. Class Selector */
+.sub-heading {
+    color: indigo;
+}
+
+/* 4. Pseudo Selectors (:) - Way of selecting natural behaviors of an element */
+h1:hover {
+    color: black;
+}
+
+.unordered-list:nth-child(2) {
+    color: darkblue
+}
+
+.unordered-list:first-child {
+    color: yellow;
+}
+
+.un-order:first-child {
+    color: green;
+}
+
+.un-order:last-child {
+    color: blue;
+}
+
+.un-order:nth-child(3) {
+    color: red;
+}
+
+/* 5. Attribute Selector ([])  */
+/* * -> Statrts with
+$ -> Ends with */
+
+/* img[src*="https://"] {
+    border: 2px solid black;
+} */
+
+/* only style that image which ends with img-1.jpeg */
+img[src$="img-1.jpeg"] {
+    border: 5px solid black;
+}
+
+img[src$="img-2.jpeg"] {
+    border: 5px solid darkblue;
+}
+
+
+/* COLORS - named-color, hex-code, rgb(x, y, z), rgba() */
+
+#para-two {
+    /* color: #020966 */
+    color: rgb(89, 1, 41)
+}
+
+/* BACKGROUNDS  */
+body {
+    background-color: rgba(176, 188, 247, 0.4);
+    /* a - Absolute value of a color - 0 to 1 */
+}
+
+#container-one {
+    height: 400px;
+    width: 400px;
+    
+    background: url('https://static.photocdn.pt/images/articles/2018/03/20/articles/2017_8/landscape_photography_tips-1.jpg');
+
+    /* background: url('https://raw.githubusercontent.com/arunkudiyal/tfa-fed/master/CSS/img/img-2.jpeg'); */
+
+    background-color: red;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
