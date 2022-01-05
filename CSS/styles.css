@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 /* selector {
     css for the selected element
     cssProperty: propertyValue;
@@ -14,6 +16,11 @@ h1 {
 /* 2. ID Selector */
 #para-one {
     color: grey;
+    /* font-size: 1cm; */
+    /* font-size: 1mm; */
+    font-size: 1.2em;
+
+    font-weight: 300;
 }
 
 /* 3. Class Selector */
@@ -56,7 +63,15 @@ $ -> Ends with */
 
 /* only style that image which ends with img-1.jpeg */
 img[src$="img-1.jpeg"] {
+    /* border: size style color; */
     border: 5px solid black;
+    /* border: 5px dotted navy; */
+    /* border: 5px double green; */
+
+    /* Border with direction */
+    /* border-bottom: 10px solid grey; */
+
+    border-radius: 10px;
 }
 
 img[src$="img-2.jpeg"] {
@@ -75,6 +90,7 @@ img[src$="img-2.jpeg"] {
 body {
     background-color: rgba(176, 188, 247, 0.4);
     /* a - Absolute value of a color - 0 to 1 */
+    font-family: 'Roboto', sans-serif;
 }
 
 #container-one {
@@ -86,8 +102,91 @@ body {
     /* background: url('https://raw.githubusercontent.com/arunkudiyal/tfa-fed/master/CSS/img/img-2.jpeg'); */
 
     background-color: red;
-
     background-repeat: no-repeat;
-
     background-size: cover;
+
+    /* Box-Model Properties */
+    border: 5px solid navy;
+    border-radius: 10px;
 }
+
+#container-two {
+    width: 80%;
+    height: 400px;
+
+    background-color: orange;
+
+    margin-top: 20px;
+
+    /* DISPLAY */
+    display: none;
+    display: block;
+}
+
+#container-three {
+    width: 80%;
+    height: 400px;
+
+    background-color: green;
+    margin-top: 20px;
+    height: auto;
+
+    padding: 10px;
+
+    /* FLEXBOX */
+    display: flex;
+
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    align-items: center;
+
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+.container-three-item {
+    width: 100px;
+    background-color: yellow;
+    height: 150px;
+
+    margin: 15px;
+
+    padding: 5px;
+}
+
+/* UNITS OF MEASUREMNET */
+/* 1. Absolute Unit - cm, mm, px, ...  */
+/* 2. Relative Unit - em(times), rem, ... */
+#image-one {
+    /* width: 400px; */
+    /* width: 80vw; */
+    width: 80%;
+    height: 50vh;
+}
+
+#image-two {
+    border-radius: 10px;
+
+    /* padding: top right bottom left; */
+    /* padding: a-px b-px c-px d-px; */
+    /* padding: 5px 10px 15px 20px; */
+
+    /* padding: a-px; */
+    /* padding: 10px; */
+    /* padding-left, padding-right, padding-top, padding-right */
+    
+    /* padding: a-px (top-bottom) b-px (lef-right); */
+    padding: 5px 10px;
+
+    margin: 10px;
+}
+
+/* Pixel - px -  */
+
+/* Font & Font-Family - font, font-family, font-size, font-weight  */
+
+/* BOX MODELS */
+
