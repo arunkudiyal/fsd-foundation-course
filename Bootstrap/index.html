@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Bootstrap Cheat-sheet</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-header">Welcome to Bootstrap <small>By Arun Kudiyal</small> </h1>
+
+        <h3>Paragraphs :</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab quod, perferendis, iste aliquam similique excepturi recusandae voluptas quibusdam quia corporis nesciunt ipsa, a placeat. Velit alias provident ducimus? In dignissimos minima qui aliquam ducimus corporis corrupti ipsum inventore autem.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ab quod, perferendis, iste aliquam similique excepturi recusandae voluptas quibusdam quia corporis nesciunt ipsa, a placeat. Velit alias provident ducimus? In dignissimos minima qui aliquam ducimus corporis corrupti ipsum inventore autem.</p>
+
+        <hr />
+
+        <h3>Alignments :</h3>
+        <p class="text-left">Left - Alignment</p>
+        <p class="text-center">Center Alignment</p>
+        <p class="text-right">Right Alignment</p>
+
+        <hr />
+
+        <h3>Lists :</h3>
+        <ul class="list-unstyled">
+            <li>List Item - 1</li>
+            <li>List Item - 2</li>
+            <li>List Item - 3</li>
+            <li>List Item - 4</li>
+        </ul>
+
+        <!-- Nav Bar -->
+        <ul class="list-inline">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Service</a> </li>
+            <li> <a href="#">About Us</a> </li>
+            <li> <a href="#">Contact Us</a> </li>
+        </ul>
+
+        <hr />
+
+        <h3>Contextual Classes (Named Colors in BS) :</h3>
+
+        <p class="bg-primary">Paragraph - 1</p>
+        <p class="bg-success">Paragraph - 2</p>
+        <p class="bg-danger">Paragraph - 3</p>
+        <p class="bg-info">Paragraph - 4</p>
+        <p class="bg-warning">Paragraph - 5</p>
+
+        <p class="text-primary">Paragraph - 1</p>
+        <p class="text-success">Paragraph - 2</p>
+        <p class="text-danger">Paragraph - 3</p>
+        <p class="text-info">Paragraph - 4</p>
+        <p class="text-warning">Paragraph - 5</p>
+
+        <hr />
+
+        <h3>Buttons :</h3>
+
+        <button class="btn btn-primary">Click Me</button>
+        <a class="btn btn-success" href="https://www.google.com">Google</a>
+        <input class="btn btn-danger" type="submit" value="SUBMIT">
+
+        <h3>Button Sizes :</h3>
+        <button class="btn btn-primary btn-lg">Button - 1</button>
+        <button class="btn btn-primary btn-sm">Button - 2</button>
+        <button class="btn btn-primary btn-xs">Button - 3</button>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <h3>Forms :</h3>
+
+        <div style="border: 2px solid navy; padding: 10px; border-radius: 10px;">
+            <form action="#" >
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="enter the full name..." />
+                </div>
+        
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="enter your email..." />
+                </div>
+        
+                <div class="form-group">
+                    <input class="form-control" type="password" placeholder="enter your password..." />
+                </div>
+        
+                <div class="form-group">
+                    <select class="form-control">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label>How happy are you ? </label>
+                    <input class="form-control" type="range" />
+                </div>
+        
+                <div class="form-group">
+                    <label>Date of Birth : </label>
+                    <input class="form-control" type="date" />
+                </div>
+        
+                <div class="form-group">
+                    <label>Upload a picture (only .png) : </label>
+                    <input class="form-control" type="file" />
+                </div>
+        
+                <div class="form-group">
+                    <input class="btn btn-success" type="submit" value="SUBMIT FORM" />
+                </div>
+            </form>
+        </div>
+
+        <hr />
+
+        <h3>Tables :</h3>
+        <table class="table table-bordered table-hover table-striped table-condensed">
+            <thead>
+                <th>Emp Id</th>
+                <th>Emp Name</th>
+                <th>Emp Designation</th>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>1011</td>
+                    <td>John Doe</td>
+                    <td>Software Tester</td>
+                </tr>
+                <tr>
+                    <td>1012</td>
+                    <td>Max Williams</td>
+                    <td>Software Developer</td>
+                </tr>
+                <tr>
+                    <td>1013</td>
+                    <td>Mosh Yadu</td>
+                    <td>Graphics Designer</td>
+                </tr>
+                <tr>
+                    <td>1014</td>
+                    <td>Paul</td>
+                    <td>BDE</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+
+        <h3>Progress Bar :</h3>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped active" style="width: 65%;">65%</div>
+        </div>
+
+        <hr />
+
+        <h3>Keyboard Tags :</h3>
+        <p>Change setting on a Mac : <kbd>Cmd</kbd> </p>
+        <p>Change directory in Terminal : <kbd> <kbd>cd</kbd> <kbd>fileName</kbd> </kbd> </p>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <h3>Panels :</h3>
+
+        <div class="panel panel-danger">
+            <div class="panel-heading">Quote by Mahatma Gandhi</div>
+            <div class="panel-body"> "An eye for an eye, makes the whole world blind!" </div>
+            <div class="panel-footer"> - Mahatma Gandhi </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Pagination :</h3>
+
+        <div>
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Bootstrap Gris :</h3>
+
+        <h4> <u>6 x 6 Grid :</u> </h4>
+        <div class="row">
+            <div class="col-xs-6">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus hic culpa fugiat ad magnam asperiores sunt rerum iure! Alias nobis fuga minima, id accusamus aliquam, nesciunt officiis quod deserunt magni quasi sit rerum. Mollitia, enim. A voluptatibus quaerat quo voluptates debitis. Voluptate, repellat unde nisi nemo ullam et iure saepe!</p>
+            </div>
+
+            <div class="col-xs-6">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus hic culpa fugiat ad magnam asperiores sunt rerum iure! Alias nobis fuga minima, id accusamus aliquam, nesciunt officiis quod deserunt magni quasi sit rerum. Mollitia, enim. A voluptatibus quaerat quo voluptates debitis. Voluptate, repellat unde nisi nemo ullam et iure saepe!</p>
+            </div>
+        </div>
+
+        <h4> <u>3 x 3 x 3 x 3 Grid :</u> </h4>
+        <div class="row">
+            <div class="col-xs-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, molestias. Beatae enim quod ullam voluptate sequi! Veritatis deserunt fugiat, tempore dolorum itaque dolores voluptatum ipsam.</p>
+            </div>
+            <div class="col-xs-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, molestias. Beatae enim quod ullam voluptate sequi! Veritatis deserunt fugiat, tempore dolorum itaque dolores voluptatum ipsam.</p>
+            </div>
+            <div class="col-xs-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, molestias. Beatae enim quod ullam voluptate sequi! Veritatis deserunt fugiat, tempore dolorum itaque dolores voluptatum ipsam.</p>
+            </div>
+            <div class="col-xs-3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, molestias. Beatae enim quod ullam voluptate sequi! Veritatis deserunt fugiat, tempore dolorum itaque dolores voluptatum ipsam.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <h3>Grid example :</h3>
+
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Plant Cell</div>
+                    <div class="panel-body"> "An eye for an eye, makes the whole world blind!" </div>
+                    <div class="panel-footer"> --> NCERT - Science</div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Plant Cell</div>
+                    <div class="panel-body"> "An eye for an eye, makes the whole world blind!" </div>
+                    <div class="panel-footer"> --> NCERT - Science</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="height: 400px;"></div>
+</body>
+</html>
